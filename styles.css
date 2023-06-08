@@ -1,0 +1,146 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    background-color: #228B22;
+    color: #fff;
+    padding: 10px;
+}
+
+h1, h2, h3 {
+    margin: 0;
+}
+h1 {
+    padding: 10px;
+}
+
+main {
+    padding: 20px;
+}
+/* Videos styles */
+.videos {
+    width: 750px;
+    margin:0 auto;
+    display: block;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+/* Property styles */
+.property {
+    display: flex;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    background-color: #a9f8a9;
+    border-radius: 5px;
+}
+
+.property {
+    display: flex;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    background-color: #a9f8a9;
+    border-radius: 5px;
+}
+
+.property-image img {
+    width: 600px;
+    height: 1000px;
+    object-fit: cover;
+}
+
+.promotion-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.property-details {
+    margin-left: 10px;
+}
+
+.property-details h3 {
+    margin-bottom: 5px;
+}
+
+.property-details p {
+    margin-top: 0;
+}
+
+.property-details a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #006400;
+    background-color: #f4f4f4;
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 3px;
+}
+
+.property-details a:hover {
+    background-color: #ddd;
+}
+
+/* Responsive Styles */
+@media only screen and (max-width: 768px) {
+    .property {
+        flex-direction: column;
+    }
+
+    .property-image img {
+        width: 100%;
+        height: auto;
+    }
+    .carousel img {
+        width: 100%;
+        height: auto;
+    }
+    .videos iframe {
+        width:min-content;
+    }
+
+    .property-details {
+        margin-top: 10px;
+        margin-left: 0;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    h1 {
+        font-size: 24px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    .property-details a {
+        font-size: 14px;
+    }
+}
+
+.menu {
+    list-style-type: none;
+    padding: 10px;
+    margin: 0;
+    background-color: #006400;
+}
+
+.menu li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.menu li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.menu li a:hover {
+    background-color:#8FBC8F	;
+}
